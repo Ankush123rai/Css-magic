@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    user-select: none;
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+} 
+h2{
+    position:absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+span img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;
+    margin-top: 10px;
+}
+h2 span{
+    display: inline-block;
+    animation: creativewiz 15s alternate 2s infinite;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+h2 span:nth-child(12){
+    animation-delay:-0.5s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(12){
+    animation-delay:-1.5s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(11){
+    animation-delay:-1s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(10){
+    animation-delay:-0.5s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(9){
+    animation-delay:0.5s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(8){
+    animation-delay:1s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(7){
+    animation-delay:1.5s;
+    animation-direction:repeat;
+    color:#555555;
+}
+h2 span:nth-child(6){
+    animation-delay:2s;
+    animation-direction:repeat;
+    color:#555555;
+}h2 span:nth-child(5){
+    animation-delay:2.5s;
+    animation-direction:repeat;
+    color:#070a4d;
+}
+h2 span:nth-child(4){
+    animation-delay:3s;
+    animation-direction:repeat;
+    color:#030333;
+}
+h2 span:nth-child(3){
+    animation-delay:3.5s;
+    animation-direction:repeat;
+    color:#130e47;
+}
+h2 span:nth-child(2){
+    animation-delay:4s;
+    animation-direction:repeat;
+    color:rgb(7, 2, 56);
+}
+h2 span:nth-child(1){
+    animation-delay:4.5s;
+    animation-direction:repeat;
+    color:#040449fa;
+}
+@keyframes creativewiz{
+ 20%{
+    transform: rotate(0deg) translateY(80px)
+    translateY(30px);
+    text-shadow:5px 0px 0px black
+}
+40%{
+    transform: rotate(360deg) translateX(0px);
+
+}
+}
